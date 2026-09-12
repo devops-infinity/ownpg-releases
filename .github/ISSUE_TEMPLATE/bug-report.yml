@@ -1,0 +1,46 @@
+name: Bug report
+description: Something ownpg did that it should not have done, or did not do that it should have.
+labels: ["bug"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The full line printed by `ownpg --version`.
+      placeholder: ownpg 0.1.0 (commit abc123def456, built 2026-09-12)
+    validations:
+      required: true
+  - type: input
+    id: platform
+    attributes:
+      label: Platform
+      description: Operating system and version, and how ownpg was installed.
+      placeholder: macOS 15.6, Homebrew
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: MCP client
+      description: The client and its version, if the problem involves one.
+      placeholder: Claude Code 2.1.0
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact command, the mode, and the tool call or statement. Remove every password and token.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: What happened
+      description: The output on stderr, including the `code:` line, and the audit line if there is one.
+    validations:
+      required: true

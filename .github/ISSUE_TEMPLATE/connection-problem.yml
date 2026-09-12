@@ -1,0 +1,33 @@
+name: Connection problem
+description: ownpg cannot reach PostgreSQL, the bastion, or the identity provider.
+labels: ["connection"]
+body:
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The full line printed by `ownpg --version`.
+    validations:
+      required: true
+  - type: input
+    id: postgres
+    attributes:
+      label: PostgreSQL
+      description: The server version and how it runs (Homebrew, Postgres.app, Docker, a Linux package, behind SSH, a pooler).
+      placeholder: PostgreSQL 18.6, Homebrew, local socket
+    validations:
+      required: true
+  - type: textarea
+    id: doctor
+    attributes:
+      label: ownpg doctor output
+      description: Paste the whole output. It prints no password; check it once more before posting.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected to connect to
+      description: Host or socket, port, database, role, and mode. Never the password.
+    validations:
+      required: true
