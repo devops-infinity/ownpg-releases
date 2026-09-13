@@ -1,6 +1,6 @@
 # OwnPG releases
 
-Release artifacts, installers, and bug reports for OwnPG, the PostgreSQL DBA tool for AI clients over the Model Context Protocol. The source repository is private; this repository is where every install path resolves and where problems are reported.
+Release artifacts, installers, and bug reports for OwnPG, the PostgreSQL DBA tool for AI clients over the Model Context Protocol. This repository is where every install path resolves and where problems are reported.
 
 ## Status
 
