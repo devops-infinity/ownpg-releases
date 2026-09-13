@@ -4,7 +4,7 @@ Release artifacts, installers, and bug reports for `ownpg`, the PostgreSQL DBA t
 
 ## Status
 
-`ownpg` is in development. No version has been released yet. The first release appears on the Releases page of this repository when the Principal Architect declares the tool stable.
+`ownpg` is in development. No version has been released yet. The first release appears on the Releases page of this repository when the maintainer declares the tool stable.
 
 ## Installing
 
