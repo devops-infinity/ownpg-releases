@@ -1,5 +1,5 @@
 name: Bug report
-description: Something ownpg did that it should not have done, or did not do that it should have.
+description: Something OwnPG did that it should not have done, or did not do that it should have.
 labels: ["bug"]
 body:
   - type: input
@@ -14,7 +14,7 @@ body:
     id: platform
     attributes:
       label: Platform
-      description: Operating system and version, and how ownpg was installed.
+      description: Operating system and version, and how OwnPG was installed.
       placeholder: macOS 15.6, Homebrew
     validations:
       required: true
