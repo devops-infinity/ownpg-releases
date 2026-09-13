@@ -1,5 +1,5 @@
 name: Connection problem
-description: ownpg cannot reach PostgreSQL, the bastion, or the identity provider.
+description: OwnPG cannot reach PostgreSQL, the bastion, or the identity provider.
 labels: ["connection"]
 body:
   - type: input
